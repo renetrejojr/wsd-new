@@ -6,3 +6,24 @@ ul {
 	padding: 0;
 	overflow: none;
 }
+
+li {
+	width: 100px;
+	background: silver;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+	background: #fff;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #000;
+}
+
+a:hover {
+	color: #C60;
+	background: #003366;
+}
