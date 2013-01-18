@@ -1,6 +1,6 @@
 /*----------------------NAVIGATION-------------------------*/
 
-ul {
+ul{
 	width: 400px;
 	margin: 0 auto;
 	background: #666;
@@ -9,13 +9,13 @@ ul {
 	overflow: none;
 }
 
-li {
+li{
 	width: 100px;
 	background: silver;
 	float: left;
 }
 
-a {
+a{
 	text-decoration: none;
 	background: #fff;
 	display: block;
@@ -25,9 +25,47 @@ a {
 	color: #000;
 }
 
-a:hover {
+a:hover{
 	color: #C60;
 	background: #003366;
 }
 
 /*----------------------END NAVIGATION-------------------------*/
+
+/*----------------------START GALLERY--------------------------*/
+
+ul{
+	border: 1px dashed #fff;
+	list-style-type: none;
+	width: 400px;
+	margin: 25px auto;
+	overflow: hidden;
+	padding: 5px;
+}
+
+li{
+	float: left;
+	margin-left: 20px;
+}
+
+a{
+	border: 10px solid #fff;
+	display: block;
+	height: 100px;
+	width: 100px;
+	outline: 0;
+}
+
+a: visited{
+	border-color: white;
+}
+
+a: hover{
+	border-color: orange;
+}
+
+a: active{
+	border-color: navy;
+}
+
+/*----------------------END GALLERY--------------------------*/
