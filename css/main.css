@@ -5,7 +5,7 @@
 	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
-	width: 632px;
+	width: 782px;
 	height: 30px;
 	-moz-border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -20,7 +20,7 @@
 
 #navigation a:link,a:visited{
 	display: block;
-	width: 120px;
+	width: 150px;
 	height: 30px;
 	font-family: 'Racing Sans One', cursive;
 	color: #FFFFFF;
@@ -37,7 +37,7 @@
 
 .logo{
 	display: block;
-	width: 120px;
+	width: 150px;
 	height: 30px;
 	background-color: #F60;
 	text-align: center;
@@ -47,10 +47,14 @@
 
 /*----------------------START BODY-------------------------*/
 
-body{
-	color: #373737;
-	line-height: 1;
-	background: url(../images/blue-bg.jpg);
+body {
+	margin:0;
+	padding:0;
+	border:0;
+	width:100%;
+	background:#fff;
+	min-width:600px;
+	font-size:90%;
 }
 
 p{
@@ -70,23 +74,49 @@ h2{
 	font-family: 'Racing Sans One', cursive;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	text-align: center;
+	text-align: left;
 }
-	
+
+
+.fullpage{
+	position:relative;
+	clear:both;
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+
+.col1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 49%;
+	padding: 40px;
+	background: url(../images/blue-bg.jpg);
+}
+
+#stats{
+	columns:300px 2;
+	-webkit-columns:300px 2;
+	-moz-columns:300px 2;
+} 
+
+
 /*----------------------START GALLERY--------------------------*/
 
 #gallery ul{
-	border: 1px dashed navy;
 	list-style-type: none;
-	width: 490px;
-	margin: 20px auto;
+	width: 300px;
 	overflow: hidden;
 	padding: 3px;
+	float: left;
+	margin-top: -10px;
+	margin-left: -10px;
 }
 
 #gallery li{
 	float: left;
 	margin-left: 10px;
+	margin-bottom: 10px;
 }
 
 #gallery a{
