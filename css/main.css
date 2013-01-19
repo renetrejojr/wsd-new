@@ -5,7 +5,7 @@
 	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
-	width: 520px;
+	width: 700px;
 }
 
 #navigation li{
@@ -27,6 +27,14 @@
 
 #navigation a:hover,a:active {
 	background-color: #C60;
+}
+
+.logo{
+	display: block;
+	width: 120px;
+	height: 27px;
+	background-color: #F60;
+	text-align: center;
 }
 
 /*----------------------END NAVIGATION-------------------------*/
