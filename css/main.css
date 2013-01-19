@@ -2,15 +2,15 @@
 
 #navigation ul{
 	list-style-type: none;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
 	width: 520px;
-	margin: 0 auto;
 }
 
 #navigation li{
 	float: left;
+	margin: 0 auto;
 }
 
 #navigation a:link,a:visited{
