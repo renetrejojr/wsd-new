@@ -6,6 +6,11 @@
 	padding: 0;
 	overflow: hidden;
 	width: 700px;
+	height: 30px;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
 }
 
 #navigation li{
@@ -16,6 +21,7 @@
 #navigation a:link,a:visited{
 	display: block;
 	width: 120px;
+	height: 30px;
 	font-family: 'Racing Sans One', cursive;
 	color: #FFFFFF;
 	background-color: #F60;
@@ -32,12 +38,20 @@
 .logo{
 	display: block;
 	width: 120px;
-	height: 29px;
+	height: 30px;
 	background-color: #F60;
 	text-align: center;
 }
 
 /*----------------------END NAVIGATION-------------------------*/
+
+/*----------------------START BODY-------------------------*/
+
+body{
+  color:#373737;
+  line-height:1;
+  background:url("/site_media/images/bg-1008.png");
+}
 
 /*----------------------START GALLERY--------------------------*/
 
