@@ -48,11 +48,15 @@
 /*----------------------START BODY-------------------------*/
 
 body{
-  color:#373737;
-  line-height:1;
-  background:url("/site_media/images/bg-1008.png");
+	color: #373737;
+	line-height: 1;
+	background: url(../images/blue-bg.jpg);
 }
-
+p{
+	font: helvetica;
+	color: #FFF;
+	font-size: 14px;
+}
 /*----------------------START GALLERY--------------------------*/
 
 #gallery ul{
