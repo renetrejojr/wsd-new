@@ -1,45 +1,53 @@
 /*----------------------NAVIGATION-------------------------*/
 
 #navigation ul{
-	list-style-type: none;
 	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
 	width: 782px;
 	height: 30px;
-	-moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -khtml-border-radius: 20px;
-    border-radius: 20px;
+	clear: both;
+	text-align: center;
 }
 
 #navigation li{
+	list-style-type: none;
 	float: left;
 	margin: 0 auto;
 }
 
 #navigation a:link,a:visited{
-	display: block;
+	list-style-type:none;
+	display: list-item;
 	width: 150px;
 	height: 30px;
 	font-family: 'Racing Sans One', cursive;
-	color: #FFFFFF;
-	background-color: #F60;
 	text-align: center;
-	padding: 4px;
-	text-decoration: none;
-	text-transform: uppercase;
+	text-decoration:none;
+	color: #ffffff;
+	background: #f60;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top, #faa51a, #f47a20);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+
 }
 
 #navigation a:hover,a:active {
-	background-color: #C60;
+	list-style-type:none;
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top, #f88e11, #f06015);
+	filter: 		progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
 }
 
 .logo{
+	list-style-type:none;
 	display: block;
-	width: 150px;
+	width: 180px;
 	height: 30px;
-	background-color: #F60;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top, #faa51a, #f47a20);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
 	text-align: center;
 }
 
@@ -53,7 +61,7 @@ body {
 	border:0;
 	width:100%;
 	background:#fff;
-	min-width:600px;
+	min-width:750px;
 	font-size:90%;
 }
 
@@ -79,11 +87,11 @@ h2{
 
 
 .fullpage{
-	position:relative;
-	clear:both;
-	float:left;
-	width:100%;
-	overflow:hidden;
+	position: relative;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
 }
 
 .col1{
@@ -95,16 +103,19 @@ h2{
 }
 
 #stats{
-        width: 400px;
-        float: right;
-		margin-top: -315px;
+    width: 400px;
+    float: right;
+	margin-top: -315px;
     }
 	
 #bottom{
 	columns:200px 3;
 	-webkit-columns:200px 3;
 	-moz-columns: 200px 3;
+	margin-top: 40px;
 } 
+
+/*----------------------END BODY--------------------------*/
 
 
 /*----------------------START GALLERY--------------------------*/
@@ -146,3 +157,22 @@ h2{
 }
 
 /*----------------------END GALLERY--------------------------*/
+
+/*----------------------START FOOTER--------------------------*/
+
+#footer {
+	clear: both;
+	background-color:  #f60;
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Racing Sans One', cursive;
+	text-align:center;
+	color: #FFFFFF;
+	width: 782px;
+	height: 30px;
+	overflow: hidden;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+}
