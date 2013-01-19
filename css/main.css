@@ -1,7 +1,7 @@
 /*----------------------NAVIGATION-------------------------*/
 
-ul{
-	width: 400px;
+#navigation ul{
+	width: 480px;
 	margin: 0 auto;
 	background: #666;
 	list-style-type: none;
@@ -9,13 +9,13 @@ ul{
 	overflow: none;
 }
 
-li{
+#navigation li{
 	width: 100px;
 	background: silver;
 	float: left;
 }
 
-a{
+#navigation a{
 	text-decoration: none;
 	background: #fff;
 	display: block;
@@ -25,7 +25,7 @@ a{
 	color: #000;
 }
 
-a:hover{
+#navigation a:hover{
 	color: #C60;
 	background: #003366;
 }
@@ -34,37 +34,37 @@ a:hover{
 
 /*----------------------START GALLERY--------------------------*/
 
-ul{
-	border: 1px dashed #fff;
+#gallery ul{
+	border: 1px dashed #navy;
 	list-style-type: none;
-	width: 400px;
-	margin: 25px auto;
+	width: 600px;
+	margin: 20px auto;
 	overflow: hidden;
-	padding: 5px;
+	padding: 3px;
 }
 
-li{
+#gallery li{
 	float: left;
 	margin-left: 20px;
 }
 
-a{
-	border: 10px solid #fff;
+#gallery a{
+	border: 5px solid #navy;
 	display: block;
 	height: 100px;
 	width: 100px;
 	outline: 0;
 }
 
-a: visited{
-	border-color: white;
+#gallery a: visited{
+	border-color: red;
 }
 
-a: hover{
+#gallery a: hover{
 	border-color: orange;
 }
 
-a: active{
+#gallery a: active{
 	border-color: navy;
 }
 
