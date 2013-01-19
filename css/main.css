@@ -5,6 +5,8 @@
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	width: 520px;
+	margin: 0 auto;
 }
 
 #navigation li{
