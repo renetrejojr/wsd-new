@@ -95,9 +95,15 @@ h2{
 }
 
 #stats{
-	columns:300px 2;
-	-webkit-columns:300px 2;
-	-moz-columns:300px 2;
+        width: 400px;
+        float: right;
+		margin-top: -315px;
+    }
+	
+#bottom{
+	columns:200px 3;
+	-webkit-columns:200px 3;
+	-moz-columns: 200px 3;
 } 
 
 
@@ -108,9 +114,9 @@ h2{
 	width: 300px;
 	overflow: hidden;
 	padding: 3px;
-	float: left;
 	margin-top: -10px;
 	margin-left: -10px;
+	clear: both;
 }
 
 #gallery li{
