@@ -1,33 +1,30 @@
 /*----------------------NAVIGATION-------------------------*/
 
 #navigation ul{
-	width: 480px;
-	margin: 0 auto;
-	background: #666;
 	list-style-type: none;
+	margin: 0;
 	padding: 0;
-	overflow: none;
+	overflow: hidden;
 }
 
 #navigation li{
-	width: 100px;
-	background: silver;
 	float: left;
 }
 
-#navigation a{
-	text-decoration: none;
-	background: #fff;
+#navigation a:link,a:visited{
 	display: block;
-	height: 30px;
-	line-height: 30px;
+	width: 120px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #F60;
 	text-align: center;
-	color: #000;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
-#navigation a:hover{
-	color: #C60;
-	background: #003366;
+#navigation a:hover,a:active {
+	background-color: #C60;
 }
 
 /*----------------------END NAVIGATION-------------------------*/
@@ -35,9 +32,9 @@
 /*----------------------START GALLERY--------------------------*/
 
 #gallery ul{
-	border: 1px dashed #navy;
+	border: 1px dashed navy;
 	list-style-type: none;
-	width: 600px;
+	width: 490px;
 	margin: 20px auto;
 	overflow: hidden;
 	padding: 3px;
@@ -45,26 +42,26 @@
 
 #gallery li{
 	float: left;
-	margin-left: 20px;
+	margin-left: 10px;
 }
 
 #gallery a{
-	border: 5px solid #navy;
+	border: 5px solid navy;
 	display: block;
 	height: 100px;
 	width: 100px;
 	outline: 0;
 }
 
-#gallery a: visited{
+#gallery a:visited{
 	border-color: red;
 }
 
-#gallery a: hover{
+#gallery a:hover{
 	border-color: orange;
 }
 
-#gallery a: active{
+#gallery a:active{
 	border-color: navy;
 }
 
