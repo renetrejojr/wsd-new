@@ -1,12 +1,11 @@
 /*----------------------NAVIGATION-------------------------*/
 #navigation{
 	width: 1000px;
-	margin: 0 -40px;
+	margin: 0 auto;
 }
 #navigation li{
 	list-style-type: none;
 	float: left;
-	width: 20%;
 }
 
 #navigation a:link,a:visited{
@@ -44,6 +43,7 @@
 	background: -moz-linear-gradient(top, #faa51a, #f47a20);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
 	text-align: center;
+	clear: both;
 	
 }
 
@@ -52,8 +52,8 @@
 /*----------------------START BODY-------------------------*/
 
 body{
-	width: 900px;
-	margin:0 auto;
+	max-width: 900px; /*900px;*/
+	margin: 0 auto;
 	clear: both;
 }
 
@@ -82,16 +82,16 @@ h2{
 
 
 #fullpage{
-	padding: 20px;
-	width: 900px;
+	padding: 2.222222%;/*20px;*/
 	background: url(../images/blue-bg.jpg);
-	clear: both;
+	width: 95.744680851064%;
+	clear: both
 }
 
 
 
 #stats{
-    width: 600px;
+    width: 66.6666666667%; /*600px;*/
     float: right;
     }
 
@@ -111,7 +111,7 @@ h2{
 /*----------------------START GALLERY--------------------------*/
 
 #wrapper{
-	width: 900px;
+	width: 100%; /*900px;*/
 	margin: 0 auto;
 	overflow: hidden;
 	clear: both;
@@ -120,7 +120,7 @@ h2{
 #gallery{
 	float: left;
 	clear:both;
-	width: 300px;
+	width: 33.33333333%; /*300px;*/
 }
 
 #gallery ul{
