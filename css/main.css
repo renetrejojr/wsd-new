@@ -4,7 +4,7 @@
 	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
-	width: 782px;
+	width: 49.493670886076%; /*782px*/
 	height: 30px;
 	clear: both;
 	text-align: center;
@@ -19,7 +19,7 @@
 #navigation a:link,a:visited{
 	list-style-type:none;
 	display: list-item;
-	width: 150px;
+	width: 19.181585677749em;/*150px*/
 	height: 30px;
 	font-family: 'Racing Sans One', cursive;
 	font-size: 1em;
