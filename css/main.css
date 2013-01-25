@@ -1,7 +1,8 @@
 /*----------------------NAVIGATION-------------------------*/
-#navigation{
-	width: 1000px;
-	margin: 0 auto;
+#navigation ul{
+	width: 100%;
+	margin: 0 -4.25%;
+	overflow: hidden;
 }
 #navigation li{
 	list-style-type: none;
@@ -52,7 +53,7 @@
 /*----------------------START BODY-------------------------*/
 
 body{
-	max-width: 900px; /*900px;*/
+	max-width: 940px; /*900px;*/
 	margin: 0 auto;
 	clear: both;
 }
@@ -169,7 +170,7 @@ h2{
 	font-family: 'Racing Sans One', cursive;
 	text-align:center;
 	color: #FFFFFF;
-	width: 940px;
+	width: 900px;
 	height: 30px;
 	overflow: hidden;
 	-moz-border-radius: 20px;
