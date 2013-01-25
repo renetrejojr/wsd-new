@@ -1,11 +1,12 @@
 /*----------------------NAVIGATION-------------------------*/
 #navigation{
-	width:1000px;
+	width: 1000px;
 	margin: 0 -40px;
 }
 #navigation li{
 	list-style-type: none;
 	float: left;
+	width: 20%;
 }
 
 #navigation a:link,a:visited{
