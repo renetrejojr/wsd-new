@@ -7,12 +7,12 @@
 #navigation li{
 	list-style-type: none;
 	float: left;
+	width: 20%;
 }
 
 #navigation a:link,a:visited{
 	list-style-type:none;
 	display:block;
-	width: 188px;
 	height: 30px;
 	font-family: 'Racing Sans One', cursive;
 	font-size: 1em;
@@ -56,6 +56,7 @@ body{
 	max-width: 940px; /*900px;*/
 	margin: 0 auto;
 	clear: both;
+	
 }
 
 p{
@@ -86,7 +87,8 @@ h2{
 	padding: 2.222222%;/*20px;*/
 	background: url(../images/blue-bg.jpg);
 	width: 95.744680851064%;
-	clear: both
+	clear: both;
+	overflow: hidden;
 }
 
 
@@ -94,7 +96,12 @@ h2{
 #stats{
     width: 66.6666666667%; /*600px;*/
     float: right;
+	margin: 0 auto;
     }
+	
+.heading2{
+	text-align:center;
+}
 
 
 #bottom{
@@ -115,49 +122,45 @@ h2{
 	width: 100%; /*900px;*/
 	margin: 0 auto;
 	overflow: hidden;
-	clear: both;
 }
 
-#gallery{
+
+.gallery{
 	float: left;
-	clear:both;
-	width: 33.33333333%; /*300px;*/
+	width: 33.333333%;
+	margin: auto ;
 }
 
-#gallery ul{
-	list-style-type: none;
-	overflow: hidden;
-	padding: 3px;
-	margin-top: -10px;
-	margin-left: -10px;
-	clear: both;
+.gallery-text{
+	text-align:center;
+	
 }
 
-#gallery li{
+.thumb {
+	border: .4em solid navy;
+	width: 34%;
+	height: 33.33333%;
 	float: left;
-	margin-left: 10px;
-	margin-bottom: 10px;
+	margin-top: 2.439024390244%;
+	margin-right: 2.439024390244%;
 }
 
-#gallery a{
-	border: 5px solid navy;
-	display: block;
-	height: 100px;
-	width: 100px;
-	outline: 0;
+.thumb img{
+	max-width: 100%;
 }
 
-#gallery a:visited{
+.thumb a:visited{
 	border-color: red;
 }
 
-#gallery a:hover{
+.thumb a:hover{
 	border-color: orange;
 }
 
-#gallery a:active{
+.thumb a:active{
 	border-color: navy;
 }
+
 
 /*----------------------END GALLERY--------------------------*/
 
@@ -170,8 +173,8 @@ h2{
 	font-family: 'Racing Sans One', cursive;
 	text-align:center;
 	color: #FFFFFF;
-	width: 900px;
-	height: 30px;
+	width: 100%; /*940px;*/
+	height: 1.9em;
 	overflow: hidden;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
