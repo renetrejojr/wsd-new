@@ -62,13 +62,13 @@ body {
 	width:100%;
 	background:#fff;
 	min-width:750px;
-	font-size:90%;
+	font-size:100%;
 }
 
 p{
 	font: helvetica;
 	color: #FFF;
-	font-size: 14px;
+	font-size: 0.875em;
 }
 
 h1{
