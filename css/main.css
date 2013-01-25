@@ -4,7 +4,7 @@
 	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
-	width: 49.493670886076%; /*782px*/
+	width: 1580px;
 	height: 30px;
 	clear: both;
 	text-align: center;
@@ -19,7 +19,7 @@
 #navigation a:link,a:visited{
 	list-style-type:none;
 	display: list-item;
-	width: 19.181585677749em;/*150px*/
+	width: 180px;
 	height: 30px;
 	font-family: 'Racing Sans One', cursive;
 	font-size: 1em;
@@ -60,9 +60,8 @@ body {
 	margin:0;
 	padding:0;
 	border:0;
-	width:100%;
+	max-width:1782px;
 	background:#fff;
-	min-width:750px;
 	font-size:100%;
 }
 
@@ -91,9 +90,8 @@ h2{
 
 
 .fullpage{
-	position: relative;
 	clear: both;
-	float: left;
+	float: none;
 	width: 100%;
 	overflow: hidden;
 }
@@ -106,11 +104,21 @@ h2{
 	background: url(../images/blue-bg.jpg);
 }
 
+#wrapper{
+	width: 782px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
 #stats{
     width: 400px;
     float: right;
 	margin-top: -315px;
     }
+
+
+
+
 	
 #bottom{
 	columns:200px 3;
@@ -126,7 +134,7 @@ h2{
 
 #gallery ul{
 	list-style-type: none;
-	width: 300px;
+	width: 352px;
 	overflow: hidden;
 	padding: 3px;
 	margin-top: -10px;
