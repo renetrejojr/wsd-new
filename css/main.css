@@ -1,4 +1,14 @@
+
+body{
+	max-width: 940px; /*900px;*/
+	margin: 0 auto;
+	clear: both;
+	overflow:auto;
+	
+}
+
 /*----------------------NAVIGATION-------------------------*/
+
 #navigation ul{
 	width: 100%;
 	margin: 0 -4.25%;
@@ -7,12 +17,12 @@
 #navigation li{
 	list-style-type: none;
 	float: left;
-	width: 20%;
 }
 
 #navigation a:link,a:visited{
 	list-style-type:none;
 	display:block;
+	width: 188px;
 	height: 30px;
 	font-family: 'Racing Sans One', cursive;
 	font-size: 1em;
@@ -52,12 +62,6 @@
 
 /*----------------------START BODY-------------------------*/
 
-body{
-	max-width: 940px; /*900px;*/
-	margin: 0 auto;
-	clear: both;
-	
-}
 
 p{
 	font: 'Helvetica Neue';
@@ -106,10 +110,11 @@ h2{
 
 #bottom{
 	columns:286px 3;
-	-webkit-columns:286px 3;
+	-webkit-columns: 286px 3;
 	-moz-columns: 286px 3;
 	margin-top: 40px;
-	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
 
 } 
 
@@ -180,4 +185,135 @@ h2{
 	-webkit-border-radius: 20px;
 	-khtml-border-radius: 20px;
 	border-radius: 20px;
+}
+
+/*--------------Media Quieries------------------------*/
+
+@media screen and (min-width: 768px) and (max-width: 899px) {
+  body {
+    background: #333;
+  }
+  
+  #navigation a {
+    background: #333;
+  }
+ 
+ 
+
+  #stats{
+	float: none;
+}
+
+  #bottom{
+		float: none;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    background: #fff;
+  }
+  
+  h2{
+	  text-align:center;
+  }
+  
+  #navigation li{
+    background: #fff;
+	float: none;
+	margin: 0 auto;
+  }
+  
+   #navigation a{
+    background: #fff;
+	float: none;
+	margin: 0 auto;
+	width: 100%;
+  }
+    #fullpage {
+	  float: none;
+	  width: 100%;
+	  margin-top: none;
+	  margin-right: none;
+ 
+}
+
+
+  #stats{
+	float: none;
+	width: 98%;
+}
+
+  #bottom{
+		float: none;
+	}
+	
+	#wrapper{
+		float: none;
+		margin: none;
+	}
+	
+	.gallery{
+		float: none;
+		
+	}
+	
+	.thumb{
+		float: none;
+		margin: 0 auto;
+	}
+}
+	
+@media screen and (max-width: 479px) {
+  body {
+    background: #fff;
+  }
+  
+  h2{
+	  text-align:center;
+  }
+  
+  #navigation li{
+    background: #fff;
+	float: none;
+	margin: 0 auto;
+  }
+  
+   #navigation a{
+    background: #fff;
+	float: none;
+	margin: 0 auto;
+	width: 100%;
+  }
+    #fullpage {
+	  float: none;
+	  width: 100%;
+	  margin-top: none;
+	  margin-right: none;
+ 
+}
+
+
+  #stats{
+	float: none;
+	width: 98%;
+}
+
+  #bottom{
+		float: none;
+	}
+	
+	#wrapper{
+		float: none;
+		margin: none;
+	}
+	
+	.gallery{
+		display: none;
+	}
+	
+	.thumb{
+		float: none;
+		margin: 0 auto;
+	}
 }
