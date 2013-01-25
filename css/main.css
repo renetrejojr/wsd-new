@@ -1,26 +1,29 @@
 /*----------------------NAVIGATION-------------------------*/
+#header{
+	width: 782px;
+}
 
 #navigation ul{
-	margin: 0 auto;
-	padding: 0;
-	overflow: hidden;
-	width: 1580px;
+	display:block;
+	width: 782px;
 	height: 30px;
 	clear: both;
 	text-align: center;
+
 }
 
 #navigation li{
 	list-style-type: none;
-	float: left;
-	margin: 0 auto;
+	display: block;
+	width:1840px;
+	height: 30px;
+	
+
 }
 
 #navigation a:link,a:visited{
 	list-style-type:none;
-	display: list-item;
-	width: 180px;
-	height: 30px;
+	display:block;
 	font-family: 'Racing Sans One', cursive;
 	font-size: 1em;
 	text-align: center;
@@ -57,10 +60,10 @@
 /*----------------------START BODY-------------------------*/
 
 body {
-	margin:0;
+	margin:0 auto;
 	padding:0;
 	border:0;
-	max-width:1782px;
+	max-width: 100%;
 	background:#fff;
 	font-size:100%;
 }
@@ -90,9 +93,9 @@ h2{
 
 
 .fullpage{
-	clear: both;
-	float: none;
-	width: 100%;
+	float: left;
+	width: 782 px;
+	margin: 0 auto;
 	overflow: hidden;
 }
 
@@ -125,6 +128,7 @@ h2{
 	-webkit-columns:200px 3;
 	-moz-columns: 200px 3;
 	margin-top: 40px;
+
 } 
 
 /*----------------------END BODY--------------------------*/
