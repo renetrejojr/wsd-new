@@ -90,15 +90,15 @@ h2{
 
 
 #stats{
-    width: 400px;
+    width: 600px;
     float: right;
     }
 
 
 #bottom{
-	columns:300px 3;
-	-webkit-columns:300px 3;
-	-moz-columns: 300px 3;
+	columns:286px 3;
+	-webkit-columns:286px 3;
+	-moz-columns: 286px 3;
 	margin-top: 40px;
 	clear: both;
 
@@ -110,7 +110,7 @@ h2{
 /*----------------------START GALLERY--------------------------*/
 
 #wrapper{
-	width: 800px;
+	width: 900px;
 	margin: 0 auto;
 	overflow: hidden;
 	clear: both;
