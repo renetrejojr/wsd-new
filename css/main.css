@@ -1,19 +1,19 @@
-
 body{
 	max-width: 940px; /*900px;*/
 	margin: 0 auto;
 	clear: both;
 	overflow:auto;
-	
+	background-color:#EBEBEB;
+	padding: 25px;
 }
 
 /*----------------------NAVIGATION-------------------------*/
-
-#navigation ul{
-	width: 100%;
-	margin: 0 -4.25%;
-	overflow: hidden;
+#navigation{
+	width: 110%;
+	margin: 0px 0px 0px -60px;
+	padding-bottom: 25px;
 }
+
 #navigation li{
 	list-style-type: none;
 	float: left;
@@ -86,6 +86,14 @@ h2{
 	font-size: 1.5em;
 }
 
+#form h2{
+	font-family: 'Racing Sans One', cursive;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.5em;
+}
+
 
 #fullpage{
 	padding: 2.222222%;/*20px;*/
@@ -93,6 +101,8 @@ h2{
 	width: 95.744680851064%;
 	clear: both;
 	overflow: hidden;
+	position: relative;
+	
 }
 
 
@@ -115,6 +125,7 @@ h2{
 	margin-top: 40px;
 	margin: 0 auto;
 	overflow: hidden;
+	
 
 } 
 
@@ -142,7 +153,7 @@ h2{
 }
 
 .thumb {
-	border: .4em solid navy;
+	border: .3em solid white;
 	width: 34%;
 	height: 33.33333%;
 	float: left;
@@ -163,18 +174,31 @@ h2{
 }
 
 .thumb a:active{
-	border-color: navy;
+	border-color: purple;
 }
 
 
 /*----------------------END GALLERY--------------------------*/
 
+/*------------FORM----------------*/
+#form {
+	float: right;
+	width: 30%; 
+	margin: 0 25px 25px 25px;
+	padding: 5px;
+	background: #c9d0de; border: 1px solid #e1e1e1;
+	-moz-box-shadow: 0px 0px 8px #444;
+	-webkit-box-shadow: 0px 0px 8px #444;
+}
+
+
 /*----------------------START FOOTER--------------------------*/
 
 #footer {
-	clear: both;
 	background-color:  #f60;
-	margin: 0 auto;
+	position: absolute;
+	bottom:0;
+	left:0;
 	font-family: 'Racing Sans One', cursive;
 	text-align:center;
 	color: #FFFFFF;
@@ -191,11 +215,11 @@ h2{
 
 @media screen and (min-width: 768px) and (max-width: 899px) {
   body {
-    background: #333;
+    
   }
   
   #navigation a {
-    background: #333;
+    
   }
  
  
@@ -211,7 +235,7 @@ h2{
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   body {
-    background: #fff;
+   
   }
   
   h2{
@@ -219,13 +243,12 @@ h2{
   }
   
   #navigation li{
-    background: #fff;
+    
 	float: none;
 	margin: 0 auto;
   }
   
    #navigation a{
-    background: #fff;
 	float: none;
 	margin: 0 auto;
 	width: 100%;
@@ -266,7 +289,7 @@ h2{
 	
 @media screen and (max-width: 479px) {
   body {
-    background: #fff;
+    
   }
   
   h2{
@@ -274,13 +297,13 @@ h2{
   }
   
   #navigation li{
-    background: #fff;
+    
 	float: none;
 	margin: 0 auto;
   }
   
    #navigation a{
-    background: #fff;
+   
 	float: none;
 	margin: 0 auto;
 	width: 100%;

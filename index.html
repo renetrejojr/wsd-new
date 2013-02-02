@@ -8,7 +8,10 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 <body>
-	<div id="navigation">
+	
+    
+  	<div id="fullpage">
+    	<div id="navigation">
     	<ul>
         	<li class="logo"><a href="www.denverbroncos.com"><img src="images/nfl-broncos-logo.png" alt="logo"></a></li>
             <li><a href="#">Home</a></li>
@@ -17,8 +20,6 @@
             <li><a href="#gallery">Gallery</a></li>
     	</ul> 
 	</div>
-    
-  	<div id="fullpage">
 			<div id="paragraph1">
         		<h1>Mile High Feeling for the Mile High City</h1>
 					<p>If a team has multiple skilled players at the same position, they say it is a good problem to have. Well, the NFL has a good problem going, as their league boasts two individuals deserving of the coveted Most Valuable Player award. It is a good problem because it is a hot topic everyone is discussing nationally, but also because Peyton Manning and Adrian Peterson performed phenomenally this season. What’s even more amazing, is that each is coming off important injuries; a torn ACL for Peterson and multiple neck surgeries for Manning.</p>
@@ -52,8 +53,40 @@
            
         	<p id="end">Undoubtedly, this is one of the top Broncos teams in the history of the franchise and although they may be the most complete team in football, Denver would be nowhere near the team they are today without <strong>your NFL MVP, Peyton Manning.</strong></p>
 		</div>
+        
+        <div id="form">
+       <center> <h2>Vote Now</h2> </center>
+		<form action="#" method="post">
+            
+            <div>
+           <center> <h3>Who Should Be MVP</h3> </center>
+            <center><select name="vote" id="vote"></
+            	<option>Peyton Manning</option>
+                <option>Adrian Peterson</option>
+            </select></center>
+            <div>
+            <label for="message">Other:</label>
+			<textarea id="message" placeholder="If not them, then who?"></textarea>
+            </div>
+            
+      		<div>
+			<label for="name">Name:</label>
+			<input type="text" id="name" placeholder="Who are you" />
+            </div>
+			
+            <div>
+			<label for="email">Email:</label>
+			<input type="email" id="email" placeholder="Addy here" />
+            </div>
+            
+            <div>
+			<input type="submit" value="Send message" />
+            </div>
+  		
+        </form>
+        </div>
+        <div id="footer">Story by: Rich Kurtzman, courtesy of CBS Denver</div>
     </div>
 </body>
-   	<div id="footer">Story by: Rich Kurtzman, courtesy of CBS Denver
-   	</div>
+   	
 </html>
