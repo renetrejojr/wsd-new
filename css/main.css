@@ -191,10 +191,18 @@ h2{
 	-webkit-box-shadow: 0px 0px 8px #444;
 }
 
-#table{
-	float: left;
+table,td,th
+{
+border:1px solid white;
 }
-
+table
+{
+width:60%;
+}
+th
+{
+height:50px;
+}
 
 /*----------------------START FOOTER--------------------------*/
 
